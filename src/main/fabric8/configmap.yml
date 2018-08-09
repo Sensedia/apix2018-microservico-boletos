@@ -1,9 +1,9 @@
 metadata:
-  namespace: commons
+  namespace: # namespace do GCP
   name: ${project.artifactId}
 data:
-  db.url: jdbc:mysql://35.198.30.27:3306/boletos
-  db.username: boletos
-  db.password: boletos
+  db.url: # URL do DB
+  db.username: # usuario
+  db.password: # senha
   subscription.name: boletos-in
   topic.out.name: boletos-out
